@@ -33,8 +33,8 @@ Examples:
 ## Known limitations
 - Pentation and hexation use log-space approximation.
 - Extreme inputs correctly return "beyond computable range" — the result is finite, but too large for any computer to store.
-- Hyperoperations support positive numbers only, as negative
-  inputs are not well-defined mathematically.
+- Hyperoperations support positive numbers only, as negative inputs are not well-defined mathematically.
+- Very small results may be displayed in scientific notation. Extremely tiny floating-point results may become 0.0 because of Python float limitations.
 
 > Note: Hyperoperations require a positive base because negative bases are not supported by this implementation.
 
